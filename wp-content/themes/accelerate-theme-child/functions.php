@@ -29,7 +29,7 @@ function create_custom_post_types () {
         array(
             'labels' => array (
                 'name' => __( 'Case Studies' )
-                'singular_name' => ( 'Case Study' )
+                'singular_name' =>__( 'Case Study' )
             ),
             'public' => true,
             'has_archive' => true,
