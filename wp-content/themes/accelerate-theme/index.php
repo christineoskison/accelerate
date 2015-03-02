@@ -40,7 +40,7 @@ get_header(); ?>
 							<div class="entry-meta">
 								<span class="entry-terms author">Written by <a href=""><?php the_author(); ?></a></span>
 								<span class="entry-terms category">Posted in <a href="">Books</a></span>
-								<span class="entry-terms commets"><a href="">2 Comments</a></span>
+								<span class="entry-terms comments"><a href="">2 Comments</a></span>
 							</div>
 						</footer>
 					</div>
