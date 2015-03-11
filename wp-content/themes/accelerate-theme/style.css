@@ -464,7 +464,7 @@ h1 {
 #masthead {
     background: none repeat scroll 0 0 #333;
     color: white;
-    height: 30px;
+    height: 20px;
     padding: 10px 0;
 }
 
@@ -759,6 +759,7 @@ aside.sidebar {
 	margin: 20px 0 5px;
 }
 .widget ul {
+    list-style-type: none;
 	margin-bottom: 40px;
 }
 .widget li {

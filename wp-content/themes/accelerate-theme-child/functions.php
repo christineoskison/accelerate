@@ -36,5 +36,31 @@ function create_custom_post_types () {
             'rewrite' => array ( 'slug' => 'case-studies' ),
         )
     );
+       register_post_type( 'about', //assigns a unique name
+        array( //defines settings (many more options available)
+            'labels' => array(
+                'name' => __( 'About' ), //human-readable name, plural
+                'singular_name' => __( 'About' ) //human-readable name, singular
+            ),
+            'public' => true,
+            'has_archive' => true, //ensures posts are archived
+            'rewrite' => array( 'slug' => 'about' ), //defines URL slug for archive
+        )
+    );
+    
+    register_sidebar( array(
+	'name' =>__( 'Homepage sidebar', 'homepage-sidebar'),
+	'id' => 'sidebar-2',
+	'description' => __( 'Appears on the static front page template', 'homepage-sidebar' ),
+	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	'after_widget' => '</aside>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>',
+        
+        ) 
+     );
+
+
 }
+// Hook this custom post type function into theme
 add_action ( 'init', 'create_custom_post_types' );

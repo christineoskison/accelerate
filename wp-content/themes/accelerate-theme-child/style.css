@@ -26,10 +26,20 @@ body {
 }
 #masthead nav ul li {
     float: left;
-    margin: 0 10px;
+    margin: -10px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
 }
-
-
+.widget-title {
+    float: left;
+    padding-left: 10%;   
+}
+.tweets {
+    float: left;
+    padding-left: 10%;
+    font-size: 12px;
+    
+}
 /* Blog Posts */
 
 .blog-post {
@@ -120,7 +130,237 @@ h3 {
     font-weight: normal; 
 }
 
+/* Contact Page */
+
+body.page-id-47381 #content h2 {
+	font-family: 'Montserrat';
+	margin-top: 60px;
+	margin-left: 175px;
+}
+
+body.page-id-47381 #content p {
+	font-size: 16px;
+	font-weight: 400;
+	width: 600px;
+	margin-left: 175px;
+}
+
+#ninja_forms_form_1_cont {
+	padding-top: 20px;
+	width: 600px;
+	margin-left: 175px;
+}
+
+#ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#ninja_forms_field_1_div_wrap, #ninja_forms_field_2_div_wrap {
+	width: 288px;
+	margin-bottom: 30px;
+}
+
+#ninja_forms_field_1_div_wrap {
+	float: left;
+}
+
+#ninja_forms_field_2_div_wrap {
+	float: right;
+}
+
+#ninja_forms_field_1, #ninja_forms_field_2 {
+	line-height: 1.5em;
+}
+
+#ninja_forms_field_3 {
+	border: #bfbfbf solid 1px;
+}
+
+#ninja_forms_field_5_div_wrap {
+	float: right;
+	border: none;
+}
+
+#nf_submit_1 {
+	background-color: #45ac9d;
+	border: none;
+	color: white;
+	margin-top: 20px;
+}
+
+#nf_submit_1 input#ninja_forms_field_5 {
+	border: none;
+	background-color: #45ac9d;
+	width: 205px;
+	height: 55px;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 18px;
+	color: #ffffff;
+}
+/* About Page */
 
 
+.aboutpage-hero {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	margin-bottom: 0;
+	max-height: 310px;
+    max-width: 1250px;
+}
 
- 
+#hero-statement p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 55px;
+	height: 200px;
+	width: 550px;
+}
+
+#hero-statement .company-name {
+	color: #45ac9d;
+}
+
+article.about-accelerate {
+	font-family: 'Open Sans';
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#services {
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#services h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+}
+
+#services p {
+	font-size: 16px;
+}
+
+#content-strategy, #influencer-mapping, #social-media-strategy, #design-development {
+	height: 300px;
+}
+
+#content-strategy .content-text {
+	float: right;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#content-strategy .content-image {
+	float: left;
+	width: 275px;
+}
+
+#content-strategy .content-image img {
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#influencer-mapping .influencer-text {
+	float: left;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#influencer-mapping .influencer-image {
+	float: right;
+	width: 275px;
+}
+
+#influencer-mapping .influencer-image img {
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#social-media-strategy .social-text {
+	float: right;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#social-media-strategy .social-image {
+	float: left;
+	width: 275px;
+}
+
+#social-media-strategy .social-image img {
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#design-development .design-text {
+	float: left;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#design-development .design-image {
+	float: right;
+	width: 275px;
+}
+
+#design-development .design-image img {
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+article.about-accelerate h5 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 24px;
+}
+
+#about-footer {
+    border-top-color: #e3e1e1;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-footer .contact-message {
+	width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#about-footer .contact-message strong {
+	font-size: 20px;
+	padding-right: 2em;
+	text-align: left;
+}
+
+#about-footer .contact-message .button {
+	text-align: right;
+	font-weight: 400;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+/* 404 Page */
+.nfimage {
+    margin-top: 100px;
+    text-align: center;
+    max-width: 100%;
+}

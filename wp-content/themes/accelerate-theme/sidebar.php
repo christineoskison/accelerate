@@ -13,7 +13,7 @@
 			<?php endif; ?>
 
 		<div class="post-author">
-					<div class="avatar"><img src="upload/Emily2.jpg" alt=""></div>
+					<div class="avatar"><img src="http://accelerateco.wpengine.com/wp-content/uploads/2015/03/Emily2.jpg" alt=""></div>
 					<div class="intro-text">I’m Emily, the lead developer at <a href="http://skillcrush.com/">Skillcrush</a> as well as an instructor in Ruby and JavaScript. This is my blog full of inspiration.</div>
 				</div>
 			
@@ -49,9 +49,9 @@
 				<div class="widget widget_events">
 					<h3 class="widget-title">Events</h3>		
 					<ul>
-						<li><a href=""><img src="upload/Event-1.jpg" alt=""></a></li>
-						<li><a href=""><img src="upload/Event-2.jpg" alt=""></a></li>
-						<li><a href=""><img src="upload/Event-3.jpg" alt=""></a></li>
+						<li><a href=""><img src="http://accelerateco.wpengine.com/wp-content/uploads/2015/03/Event-1.jpg" alt=""></a></li>
+						<li><a href=""><img src="http://accelerateco.wpengine.com/wp-content/uploads/2015/03/Event-2.jpg" alt=""></a></li>
+						<li><a href=""><img src="http://accelerateco.wpengine.com/wp-content/uploads/2015/03/Event-3.jpg" alt=""></a></li>
 					</ul>
 				</div>
 	

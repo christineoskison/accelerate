@@ -27,9 +27,6 @@ get_header(); ?>
 							<h2 class="entry-title"><?php the_title(); ?></h2>
 						</header>
 						<div class="entry-summary">
-							<figure class="wp-caption">
-								<img src="upload/entry-img.jpg" alt="">
-							</figure>
 							<?php the_content(); ?>
 						</div>
 						<footer class="entry-footer">
