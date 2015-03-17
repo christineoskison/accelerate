@@ -45,10 +45,9 @@ get_header(); ?>
                             <p><?php echo $content_strategy; ?></p>
 						</div>
 						<?php 
-							if ($content_image == true) {
-								echo '<div class="content-image">' .  wp_get_attachment_image( $content_image, $size ) . '</div>';
-							}
-						?>
+							if ($content_image == true) { ?>
+								<?php echo '<div class="content-image">' .  wp_get_attachment_image( $content_image, $size ) . '</div>';
+							} ?>
 					</div>
 					<div id="influencer-mapping">
 						<div class="influencer-text">
@@ -56,10 +55,9 @@ get_header(); ?>
                             <p><?php echo $influencer_blurb; ?></p>
 						</div>
 						<?php 
-							if ($influencer_image == true) {
-								echo '<div class="influencer-image">' .  wp_get_attachment_image( $influencer_image, $size ) . '</div>';
-							}
-						?>
+							if ($influencer_image == true) { ?>
+								<?php echo '<div class="influencer-image">' .  wp_get_attachment_image( $influencer_image, $size ) . '</div>';
+							} ?>
 					</div>
 					<div id="social-media-strategy">
 						<div class="social-text">
@@ -67,10 +65,9 @@ get_header(); ?>
                             <p><?php echo $social_media; ?></p>
 						</div>
 						<?php 
-							if ($social_image == true) {
-								echo '<div class="social-image">' .  wp_get_attachment_image( $social_image, $size ) . '</div>';
-							}
-						?>
+							if ($social_image == true) { ?>
+								<?php echo '<div class="social-image">' .  wp_get_attachment_image( $social_image, $size ) . '</div>';
+							} ?>
 					</div>
 					<div id="design-development">
 						<div class="design-text">
@@ -78,10 +75,9 @@ get_header(); ?>
                             <p><?php echo $design_development; ?></p>
 						</div>
 						<?php 
-							if ($design_image == true) {
-								echo '<div class="design-image">' .  wp_get_attachment_image( $design_image, $size ) . '</div>';
-							}
-						?>
+							if ($design_image == true) { ?>
+								<?php echo '<div class="design-image">' .  wp_get_attachment_image( $design_image, $size ) . '</div>';
+							} ?>
 					</div>
 				</article>
 								
